@@ -1,0 +1,27 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+**/*.tfstate
+**/*.tfstate.*
+
+# Ignore CLI configuration files
+**/.terraformrc
+**/.terraform*
+**/terraform.rc
+
+
+#variables
+deploy*
+terraform.tfvars
+
+#file .out
+*.out
+*.txt
+
+#files
+shutdown.tf
+budget.tf
+main.tf-*
+output.tf
+
